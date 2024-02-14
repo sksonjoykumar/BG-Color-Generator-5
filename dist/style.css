@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: aquamarine;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.main-container .container .heading {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 40px 0;
+  text-shadow: 2px 3px 4px tomato;
+}
+.main-container .container .input-container {
+  margin: 25px 0;
+}
+.main-container .container .input-container input {
+  padding: 9px 0;
+  border: 2px solid orange;
+  border-radius: 4px;
+  background-color: #ffffff;
+  font-size: 17px;
+}
+.main-container .container .input-container button {
+  background-color: tomato;
+  color: #ffffff;
+  margin-left: 10px;
+  padding: 9px 15px;
+  border: 2px solid white;
+  font-size: 18px;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.main-container .container .input-container button:hover {
+  background-color: orangered;
+  color: #ffffff;
+}
+.main-container .container .myBtn {
+  background-color: tomato;
+  color: #ffffff;
+  padding: 12px 22px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.main-container .container .myBtn:hover {
+  background-color: orangered;
+}/*# sourceMappingURL=style.css.map */
